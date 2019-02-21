@@ -1,0 +1,5 @@
+The instructions are:
+
+    Create an input field (in App Component)with a change listener which outputs the length of the entered text below( eg. In a paragraph)
+
+
