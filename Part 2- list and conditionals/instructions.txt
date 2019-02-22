@@ -1,5 +1,12 @@
 The instructions are:
 
-    Create an input field (in App Component)with a change listener which outputs the length of the entered text below( eg. In a paragraph)
+    1. Create an input field (in App Component)with a change listener which outputs the length of the entered text below( eg. In a paragraph)
 
 
+	2. Create component ValidationComponent which receives text length as a prop
+
+	3. In the ValidationComponent output "text too short" or "text too long" depending on the length (i.e length >5 -> long) 
+
+	4. Create another component CharComponent where each component receives a different letter of the entered text (=> display:inline-block, padding:16px, text-align:center, margin:16px, border:1px solid black.
+
+	5. Render a CharComponent where each CharComponent receives a different letter of the text entered.
